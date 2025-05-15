@@ -1,0 +1,133 @@
+
+Collect metadata: 
+----------------- Library:            USACE Name:               POA_20150531-0601 POC:                BreeAnna Weiler Start date:         2015-05-31 End date:           2015-06-01 Classification:     UNCLASS Notes:In January 2015, Quantum Spatial (QSI) was contracted by R&M Consultants (R&M) to collect Light Detection and Ranging (LiDAR) data in the spring of 2015 for the Northwest Arctic Borough Villages sites in northwestern Alaska. Data were collected to aid R&M in providing high resolution LiDAR data to the United States Army Corp of Engineers (USACE), for five villages in the study area: Ambler, Buckland, Deering, Kivalina, and Kobuk.  Projection: Alaska State Plan Zone 6 (Ambler, Kobuk), Zone 7 (Buckland, Deering), Zone 8 (Kivalina) Horizontal Datum: NAD83 (2011), Vertical Datum: NAVD88 (GEOID12A), Units: US Survey Feet. Contract W911KB-11-D-0002, Task Order 16. Pointcloud metadata ------------------- 370121_Deering_019_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_024_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_015_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_006_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_023_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_009_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_013_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_017_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_018_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_021_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_014_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_026_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_008_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_012_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_010_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_003_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_005_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_016_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_002_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_022_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_020_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_004_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_007_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_025_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_011_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+370121_Deering_001_20150720.las:
+Sensor: Leica ALS70
+Collect Dates: 2015-05-31 to 2015-06-01
+Classification: UNCLASS
+
+Export filenames ------------------- /u02/exports/1434/4810/6057/U_370121_Deering_010_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_003_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_005_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_016_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_002_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_022_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_020_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_004_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_007_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_025_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_011_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_001_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_019_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_024_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_015_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_006_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_023_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_009_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_013_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_017_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_018_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_021_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_014_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_026_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_008_20150720.GRiD.20160928.1409.laz/u02/exports/1434/4810/6057/U_370121_Deering_012_20150720.GRiD.20160928.1409.lazApplied filters -------------------None
