@@ -1,0 +1,37 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Title: Lidar - Kodiak
+  Description:
+    Abstract:
+      The Kodiak lidar was flown in October of 2009. 
+      It is 15 cm vertical accuracy 
+      5 meter Bare earth DEM
+      1 meter intensity image
+      NAD 83 UTM Zone 5
+      GEOID 99
+
+      Everything is in the public domain
+    Supplemental_Information: USDA/NRCS purchased a public domain license for lidar flown in Kodiak.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 200910
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+  Keywords:
+    Theme:
+      Theme_Keyword: Lidar
+    Place:
+      Place_Keyword: Kodiak
+    Temporal:
+      Temporal_Keyword: October 2009
+  Access_Constraints: Public Domain
+  Use_Constraints: Public Domain
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Organization: Aerometric
+Metadata_Reference_Information:
+  Metadata_Date: 20110124
