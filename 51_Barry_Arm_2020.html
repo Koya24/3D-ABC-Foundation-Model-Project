@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Lidar-derived elevation data for upper Barry Arm, Southcentral Alaska, June 26, 2020</title>
+  <link rel="schema.dc" href="http://purl.org/metadata/dublin_core"/>
+  <meta name="dc.title" content="Lidar-derived elevation data for upper Barry Arm, Southcentral Alaska, June 26, 2020 "/>
+  <meta name="dc.creator" content="Daanen, R.P. Wolken, G.J. Wikstrom Jones, Katreen Herbst, A.M. "/>
+  <meta name="dc.subject" content="geoscientificInformation "/>
+  <meta name="dc.description" content="The Alaska Division of Geological &amp; Geophysical Surveys (DGGS) used aerial lidar to produce a classified point cloud, digital terrain model (DTM), surface model (DSM), and intensity model of land areas in northern Barry Arm, northwest Prince William Sound, Alaska, during near snow-free ground conditions on June 26, 2020. The goal of the survey is to provide high quality, modern topographic data in the recently deglacierized part of Barry Arm where significant landslide hazards exist. Aerial lidar and ground control data were collected on June 26, 2020, and subsequently processed in Terrasolid and ArcGIS. Ground control was collected on June 26, 2020, as well. All files can be downloaded free of charge from the Alaska Division of Geological &amp; Geophysical Surveys website (http://doi.org/10.14509/30589). "/>
+  <meta name="dc.publisher" content="Alaska Division of Geological &amp; Geophysical Surveys"/>
+  <meta name="dc.contributor" content="These data products were funded by the State of Alaska and collected and processed by DGGS. We thank Clearwater Air and Alpine Air for their aviation expertise and contribution to these data products. "/>
+  <meta name="dc.date" content="2021"/>
+  <meta name="dc.type" content="data.report, point cloud, GeoTIFF"/>
+  <meta name="dc.format" content="report point-cloud GeoTIFF"/>
+  <meta name="dc.identifier" content="https://doi.org/10.14509/30589"/>
+  <meta name="dc.source" content="RDF 2021-1"/>
+  <meta name="dc.lang" content="en"/>
+  <meta name="dc.coverage.x.min" scheme="DD" content="-148.214985"/>
+  <meta name="dc.coverage.x.max" scheme="DD" content="-148.060743"/>
+  <meta name="dc.coverage.y.min" scheme="DD" content="61.077423"/>
+  <meta name="dc.coverage.y.max" scheme="DD" content="61.188625"/>
+  <meta name="dc.coverage.placeName" content="Barry Arm"/>
+  <meta name="dc.coverage.placeName" content="Barry Glacier"/>
+  <meta name="dc.coverage.placeName" content="College Fjord"/>
+  <meta name="dc.coverage.placeName" content="Esther Island"/>
+  <meta name="dc.coverage.placeName" content="Harriman Fiord"/>
+  <meta name="dc.coverage.placeName" content="Passage Canal"/>
+  <meta name="dc.coverage.placeName" content="Port Wells"/>
+  <meta name="dc.coverage.placeName" content="Whittier"/>
+  <meta name="dc.rights" content="Access constraints: This report, map, and/or dataset is available directly from the State of Alaska, Department of Natural Resources, Division of Geological &amp; Geophysical Surveys (see contact information below).; Use constraints: Any hard copies or published datasets utilizing these datasets shall clearly indicate their source. If the user has modified the data in any way, the user is obligated to describe the types of modifications the user has made. The user specifically agrees not to misrepresent these datasets, nor to imply that changes made by the user were approved by the State of Alaska, Department of Natural Resources, Division of Geological &amp; Geophysical Surveys. The State of Alaska makes no express or implied warranties (including warranties for merchantability and fitness) with respect to the character, functions, or capabilities of the electronic data or products or their appropriateness for any user's purposes. In no event will the State of Alaska be liable for any incidental, indirect, special, consequential, or other damages suffered by the user or any other person or entity whether from the use of the electronic services or products or any failure thereof or otherwise. In no event will the State of Alaska's liability to the Requestor or anyone else exceed the fee paid for the electronic service or product."/>
+  <meta name="generated-from" content="RDF2021-1.xml"/>
+  <style type="text/css">
+    /* These CSS rules can be modified to apply different styles to your outline-format metadata. */
+    .major-section { border-top: 1px solid black; padding-top: 0.5em; }
+    .child { margin-left: 2em; margin-bottom: 0.5em; }
+    .element-name { font-style: italic; }
+    .element-value { }
+    .blank { margin-top: 1em; }
+    .enttypl {font-family: monospace; font-size: large; font-weight: bold; padding: 2px 4px; background-color: #ddeeff;}
+    .attrlabl {font-family: monospace; font-weight: bold; padding: 2px 4px; background-color: #ddffee;}
+    th,td {padding: 4px;}
+    #page-bottom { visibility: hidden; display: none; }
+    #generated-by { font-size: small; }
+  </style>
+</head>
+<body>
+<h1>Lidar-derived elevation data for upper Barry Arm, Southcentral Alaska, June 26, 2020</h1>
+Metadata also available as - [<a href="RDF2021-1.txt" title="This metadata record in an alternative format">Parseable text</a>] - [<a href="RDF2021-1.xml" title="This metadata record in an alternative format">XML</a>]<p>
+<h4>Frequently anticipated questions:</h4>
+<ul>
+  <li><a href="#what">What does this data set describe?</a>
+    <ol>
+      <li><a href="#what.1">How might this data set be cited?</a></li>
+      <li><a href="#what.2">What geographic area does the data set cover?</a></li>
+      <li><a href="#what.3">What does it look like?</a></li>
+      <li><a href="#what.4">Does the data set describe conditions during a particular time period?</a></li>
+      <li><a href="#what.5">What is the general form of this data set?</a></li>
+      <li><a href="#what.6">How does the data set represent geographic features?</a></li>
+      <li><a href="#what.7">How does the data set describe geographic features?</a></li>
+    </ol>
+  </li>
+  <li><a href="#who">Who produced the data set?</a>
+    <ol>
+      <li><a href="#who.1">Who are the originators of the data set?</a></li>
+      <li><a href="#who.2">Who also contributed to the data set?</a></li>
+      <li><a href="#who.3">To whom should users address questions about the data?</a></li>
+    </ol>
+  </li>
+  <li><a href="#why">Why was the data set created?</a></li>
+  <li><a href="#how">How was the data set created?</a>
+    <ol>
+      <li><a href="#how.1">From what previous works were the data drawn?</a></li>
+      <li><a href="#how.2">How were the data generated, processed, and modified?</a></li>
+      <li><a href="#how.3">What similar or related data should the user be aware of?</a></li>
+    </ol>
+  </li>
+  <li><a href="#quality">How reliable are the data; what problems remain in the data set?</a>
+    <ol>
+      <li><a href="#quality.1">How well have the observations been checked?</a></li>
+      <li><a href="#quality.2">How accurate are the geographic locations?</a></li>
+      <li><a href="#quality.3">How accurate are the heights or depths?</a></li>
+      <li><a href="#quality.4">Where are the gaps in the data?  What is missing?</a></li>
+      <li><a href="#quality.5">How consistent are the relationships among the data, including topology?</a></li>
+    </ol>
+  </li>
+  <li><a href="#getacopy">How can someone get a copy of the data set?</a>
+    <ol>
+      <li><a href="#getacopy.0">Are there legal restrictions on access or use of the data?</a></li>
+      <li><a href="#getacopy.1">Who distributes the data?</a></li>
+      <li><a href="#getacopy.2">What's the catalog number I need to order this data set?</a></li>
+      <li><a href="#getacopy.3">What legal disclaimers am I supposed to read?</a></li>
+      <li><a href="#getacopy.4">How can I download or order the data?</a></li>
+    </ol>
+  </li>
+  <li><a href="#metaref">Who wrote the metadata?</a></li>
+</ul>
+<hr/>
+<h3><a name="what">What does this data set describe?</a></h3>
+<div style="margin-left: 2em">
+<dl>
+<span class="element-name title">Title:</span>
+<div class="child element-value title">
+Lidar-derived elevation data for upper Barry Arm, Southcentral Alaska, June 26, 2020
+</div>
+<span class="element-name abstract">Abstract:</span>
+<div class="child element-value abstract">
+The Alaska Division of Geological &amp; Geophysical Surveys (DGGS) used aerial lidar to produce a classified point cloud, digital terrain model (DTM), surface model (DSM), and intensity model of land areas in northern Barry Arm, northwest Prince William Sound, Alaska, during near snow-free ground conditions on June 26, 2020. The goal of the survey is to provide high quality, modern topographic data in the recently deglacierized part of Barry Arm where significant landslide hazards exist. Aerial lidar and ground control data were collected on June 26, 2020, and subsequently processed in Terrasolid and ArcGIS. Ground control was collected on June 26, 2020, as well. All files can be downloaded free of charge from the Alaska Division of Geological &amp; Geophysical Surveys website (<a href="http://doi.org/10.14509/30589)">http://doi.org/10.14509/30589)</a>.
+</div>
+<span class="element-name supplinf">Supplemental_Information:</span>
+<div class="child element-value supplinf">
+<pre>
+classified point cloud data:    Classified point cloud data is provided in this collection in compressed LAZ format. Data are classified in accordance with ASPRS 2014 guidelines and contain return and intensity information. The average pulse spacing was 7.2 cm and the average density was 12.05 pts/m2.	
+digital surface model:    The DSM represents surface elevations including heights of vegetation, buildings, bridges, etc. The DSM is a single band, 32-bit GeoTIFF file, with a ground sample distance of 1 meter. No Data value is set to -3.40282306074e+038.	
+digital terrain model:    The DTM represents surface elevations of ground surfaces, excluding vegetation, bridges, buildings, etc. The DTM is a single-band, 32-bit float GeoTIFF file, with a ground sample distance of 1 meter. No Data value is set to -3.40282306074e+038.	
+lidar intensity image:    The lidar intensity image describes the relative amplitude of reflected signals contributing to the point cloud. Lidar intensity is largely a function of scanned object reflectance in relation to the signal frequency, is dependent on ambient conditions, and is not necessarily consistent between separate scans. The intensity image is a single-band, 32-bit float GeoTIFF file with a ground sample distance of 1 meter. No Data value is set to -3.40282306074e+038 (32-bit, floating-point minimum).	
+hydro-enforced digital terrain model:    The hydro-enforced DTM represents bare earth surfaces which have undergone a selective &quot;flattening&quot; process, where elevation values for any hydrologic features, as well as any hydrologic obstacles (bridges, culverts, etc.), are replaced with neighboring pixel values. The hydro-enforced DTM is a single-band, 32-bit float GeoTIFF file, with a ground sample distance of 1 meter. No Data value is set to -3.40282306074e+038.
+</pre>
+</div>
+</dl>
+</div>
+<ol>
+<li style="margin-bottom: 1em;"><a name="what.1"><b>How might this data set be cited?</b></a>
+<div style="margin-left: 1em;">
+Daanen, R.P., Wolken, G.J., Wikstrom Jones, Katreen, and Herbst, A.M., 2021, Lidar-derived elevation data for upper Barry Arm, Southcentral Alaska, June 26, 2020: Raw Data File RDF 2021-1, Alaska Division of Geological &amp; Geophysical Surveys, Fairbanks, Alaska, United States.<p>
+Online Links:
+<ul>
+<li><a href="https://doi.org/10.14509/30589">https://doi.org/10.14509/30589</a>
+</ul>
+<p>
+</div>
+<dl>
+<span class="element-name othercit">Other_Citation_Details:</span> <span class="element-value othercit">9 p.</span><br/>
+</dl>
+</li>
+<li style="margin-bottom: 1em;"><a name="what.2"><b>What geographic area does the data set cover?</b></a>
+<dl>
+<span class="element-name westbc">West_Bounding_Coordinate:</span> <span class="element-value westbc">-148.214985</span><br/>
+<span class="element-name eastbc">East_Bounding_Coordinate:</span> <span class="element-value eastbc">-148.060743</span><br/>
+<span class="element-name northbc">North_Bounding_Coordinate:</span> <span class="element-value northbc">61.188625</span><br/>
+<span class="element-name southbc">South_Bounding_Coordinate:</span> <span class="element-value southbc">61.077423</span><br/>
+</dl>
+</li>
+<li style="margin-bottom: 1em;"><a name="what.3"><b>What does it look like?</b></a>
+</li>
+<li style="margin-bottom: 1em;"><a name="what.4"><b>Does the data set describe conditions during a particular time period?</b></a>
+<dl>
+<dt>Calendar_Date: 26-Jun-2020<dt>Currentness_Reference:</dt>
+<dd>ground condition<dd>
+</dl>
+</li>
+<li style="margin-bottom: 1em;"><a name="what.5"><b>What is the general form of this data set?</b></a>
+<dl>
+<span class="element-name geoform">Geospatial_Data_Presentation_Form:</span> <span class="element-value geoform">report, point cloud, GeoTIFF</span><br/>
+</dl>
+</li>
+<li><a name="what.6"><b>How does the data set represent geographic features?</b></a>
+<ol type="a">
+<li style="margin-bottom: 1em;"><a name="what.6.a"><b>How are geographic features stored in the data set?</b></a><br/>
+This is a raster data set.
+</li>
+<li style="margin-bottom: 1em;"><a name="what.6.b"><b>What coordinate system is used to represent geographic features?</b></a><br/>
+<dl>
+<span class="element-name gridsysn">Grid_Coordinate_System_Name:</span> <span class="element-value gridsysn">Universal Transverse Mercator</span><br/>
+<span class="element-name utm">Universal_Transverse_Mercator:</span><div class="child">
+<span class="element-name utmzone">UTM_Zone_Number:</span> <span class="element-value utmzone">6</span><br/>
+<span class="element-name transmer">Transverse_Mercator:</span><div class="child">
+<span class="element-name sfctrmer">Scale_Factor_at_Central_Meridian:</span> <span class="element-value sfctrmer">0.999600</span><br/>
+<span class="element-name longcm">Longitude_of_Central_Meridian:</span> <span class="element-value longcm">-147</span><br/>
+<span class="element-name latprjo">Latitude_of_Projection_Origin:</span> <span class="element-value latprjo">0</span><br/>
+<span class="element-name feast">False_Easting:</span> <span class="element-value feast">500000.000000</span><br/>
+<span class="element-name fnorth">False_Northing:</span> <span class="element-value fnorth">0</span><br/>
+</div>
+</div>
+</dl>
+Planar coordinates are encoded using coordinate pair<br/>
+Abscissae (x-coordinates) are specified to the nearest .00000001<br/>
+Ordinates (y-coordinates) are specified to the nearest .00000001<br/>
+Planar coordinates are specified in Meters<br/>
+The horizontal datum used is NAD83 (2011).<br/>
+The ellipsoid used is GRS 80.<br/>
+The semi-major axis of the ellipsoid used is 6378137.<br/>
+The flattening of the ellipsoid used is 1/298.257222101000025.<br/>
+<dl>
+<span class="element-name vertdef">Vertical_Coordinate_System_Definition:</span><div class="child">
+<span class="element-name altsys">Altitude_System_Definition:</span><div class="child">
+<span class="element-name altdatum">Altitude_Datum_Name:</span> <span class="element-value altdatum">NAVD88, GEOID12B</span><br/>
+<span class="element-name altres">Altitude_Resolution:</span> <span class="element-value altres">0.001</span><br/>
+<span class="element-name altunits">Altitude_Distance_Units:</span> <span class="element-value altunits">meters</span><br/>
+<span class="element-name altenc">Altitude_Encoding_Method:</span>
+<div class="child element-value altenc">
+Explicit elevation coordinate included with horizontal coordinates
+</div>
+</div>
+</div>
+</dl>
+</li>
+</ol>
+</li>
+<li style="margin-bottom: 1em;"><a name="what.7"><b>How does the data set describe geographic features?</b></a>
+<dl>
+<dt><span class="enttypl">classified point cloud data</span></dt><dd>Classified point cloud data is provided in this collection in compressed LAZ format. Data are classified in accordance with ASPRS 2014 guidelines and contain return and intensity information. The average pulse spacing was 7.2 cm and the average density was 12.05 pts/m2.
+  (Source: Alaska Division of Geological &amp; Geophysical Surveys (DGGS))
+<dl>
+</dl>
+<dt><span class="enttypl">digital surface model</span></dt><dd>The DSM represents surface elevations including heights of vegetation, buildings, bridges, etc. The DSM is a single band, 32-bit GeoTIFF file, with a ground sample distance of 1 meter. No Data value is set to -3.40282306074e+038.
+  (Source: Alaska Division of Geological &amp; Geophysical Surveys (DGGS))
+<dl>
+</dl>
+<dt><span class="enttypl">digital terrain model</span></dt><dd>The DTM represents surface elevations of ground surfaces, excluding vegetation, bridges, buildings, etc. The DTM is a single-band, 32-bit float GeoTIFF file, with a ground sample distance of 1 meter. No Data value is set to -3.40282306074e+038.
+  (Source: Alaska Division of Geological &amp; Geophysical Surveys (DGGS))
+<dl>
+</dl>
+<dt><span class="enttypl">lidar intensity image</span></dt><dd>The lidar intensity image describes the relative amplitude of reflected signals contributing to the point cloud. Lidar intensity is largely a function of scanned object reflectance in relation to the signal frequency, is dependent on ambient conditions, and is not necessarily consistent between separate scans. The intensity image is a single-band, 32-bit float GeoTIFF file with a ground sample distance of 1 meter. No Data value is set to -3.40282306074e+038 (32-bit, floating-point minimum).
+  (Source: Alaska Division of Geological &amp; Geophysical Surveys (DGGS))
+<dl>
+</dl>
+<dt><span class="enttypl">hydro-enforced digital terrain model</span></dt><dd>The hydro-enforced DTM represents bare earth surfaces which have undergone a selective &quot;flattening&quot; process, where elevation values for any hydrologic features, as well as any hydrologic obstacles (bridges, culverts, etc.), are replaced with neighboring pixel values. The hydro-enforced DTM is a single-band, 32-bit float GeoTIFF file, with a ground sample distance of 1 meter. No Data value is set to -3.40282306074e+038.
+  (Source: Alaska Division of Geological &amp; Geophysical Surveys (DGGS))
+<dl>
+</dl>
+</dl>
+</li>
+</ol>
+<hr/>
+<h3><a name="who">Who produced the data set?</a></h3>
+<ol>
+<li style="margin-bottom: 1em;"><a name="who.1"><b>Who are the originators of the data set?</b></a> (may include formal authors, digital compilers, and editors)
+<ul>
+<li>Daanen, R.P.
+<li>Wolken, G.J.
+<li>Wikstrom Jones, Katreen
+<li>Herbst, A.M.
+</ul>
+</li>
+<li style="margin-bottom: 1em;"><a name="who.2"><b>Who also contributed to the data set?</b></a>
+<blockquote>
+These data products were funded by the State of Alaska and collected and processed by DGGS. We thank Clearwater Air and Alpine Air for their aviation expertise and contribution to these data products.
+</blockquote>
+</li>
+<li style="margin-bottom: 1em;"><a name="who.3"><b>To whom should users address questions about the data?</b></a>
+<div style="margin-left: 2em">
+<div title="Contact_Organization_Primary">Alaska Division of Geological &amp; Geophysical Surveys</div>
+<div title="Contact_Position">Metadata Manager</div>
+<div title="Address">3354 College Road</div>
+<span title="City">Fairbanks</span>, <span title="State_or_Province">AK</span> <span title="Postal_Code"99709-3707</span><br/>
+<div title="Country">USA</div>
+<p>
+<div title="Contact_Voice_Telephone">(907)451-5020 (voice)</div>
+<div title="Contact_Facsimile_Telephone">(907)451-5050 (FAX)</div>
+<div title="Contact_Electronic_Mail_Address">dggspubs@alaska.gov</div>
+<dl>
+<span class="element-name hours">Hours_of_Service:</span> <span class="element-value hours">8 am to 4:30 pm, Monday through Friday, except State holidays</span><br/>
+<span class="element-name cntinst">Contact_Instructions:</span>
+<div class="child element-value cntinst">
+Please view our website (<a href="https://www.dggs.alaska.gov">https://www.dggs.alaska.gov</a>) for the latest information on available data. Please contact us using the e-mail address provided above when possible.
+</div>
+</dl>
+</div>
+</li>
+</ol>
+<hr/>
+<h3><a name="why">Why was the data set created?</a></h3>
+<blockquote>
+The goal of the survey is to provide high quality, modern topographic data in the recently deglacierized part of Barry Arm where significant landslide hazards exist. This data release is one of a series of DGGS publications to present elevation data.
+</blockquote>
+<hr/>
+<h3><a name="how">How was the data set created?</a></h3>
+<ol>
+<li style="margin-bottom: 1em;"><a name="how.1"><b>From what previous works were the data drawn?</b></a>
+</li>
+<li style="margin-bottom: 1em;"><a name="how.2"><b>How were the data generated, processed, and modified?</b></a>
+<dl>
+<dt>Date: 26-Jun-2020 (process 1 of 3)
+<dd>
+Airborne survey - DGGS used a Riegl VUX1-LR laser scanner integrated with a global navigation satellite system (GNSS) and Northrop Grumman LN-200C inertial measurement unit (IMU). The lidar integration system was designed by Phoenix LiDAR Systems. The sensor is capable of collecting up to 820,000 points per second over a distance of 150 m. This survey was flown with a pulse refresh rate between 200,000 and 600,000 pulses per second at a scan rate between 80 and 150 lines per second. This survey was flown with an average elevation of 200 m above ground level and a ground speed of approximately 36 m/s with a fixed-wing aircraft configuration, using a Cessna 180 aircraft. The scan angle was set from 80 to 280 degrees. The total area surveyed was approximately 40 km2. Flight take-off occurred at 10:15am from Merrill Field airport in Anchorage, Alaska, and landing occurred at 4:00 pm. The aircraft landed at the airstrip in Girdwood, Alaska, once during the survey.
+<dt>Date: 26-Jun-2020 (process 2 of 3)
+<dd>
+Ground survey - Ground control and check points were collected on June 26, 2020. A Trimble R10-2 GNSS receiver with internal antenna was deployed on the ridge near the center of the study and provided a base station occupation and real-time kinematic (RTK) corrections to points surveyed with a rover Trimble R10-2 GNSS receiver (internal antenna). A total of 106 ground control points and check points were collected to be used for calibration and assessment of the vertical accuracy of the point cloud. All points were collected on bare earth or minimally vegetated surface.
+<dt>Date: 2020 (process 3 of 3)
+<dd>
+Lidar dataset processing - Point data were processed in SDCimport software for initial filtering and multiple-time-around (MTA) disambiguation. MTA errors, corrected in this process, are the result of imprecise interpretations of received pulse time intervals and occur more frequently with higher pulse refresh rates. Inertial Measurement Unit (IMU) and Global Navigation Satellite System (GNSS) data were processed in Inertial Explorer and used to integrate flightline information with the point cloud in Spatial Explorer software. The point data were calibrated at an incrementally precise scale of sensor movement and behavior, incorporating sensor velocity, roll, pitch, and yaw fluctuations throughout the survey. Points were classified in accordance with American Society for Photogrammetry and Remote Sensing (ASPRS) 2014 guidelines, using macros designed in Terrasolid software. Careful attention was given to the interpolation of the project's ground surface to compensate for inconsistent penetration through low vegetation as a function of the scan angle. Once classified, points underwent a geometric transformation and were converted from ellipsoidal heights to GEOID12B (Alaska) orthometric heights. Raster products were derived from the point cloud using ArcMap. The DTM was interpolated from all ground class returns using a TIN-based method. The DTM was also used to produce a separate hydro-enforced raster based on a digitized shoreline. The DSM was likewise interpolated from only the first return points using a TIN-based method. An intensity image was also produced in ArcMap, using closest-to-mean binning.
+</dl>
+</li>
+<li style="margin-bottom: 1em;"><a name="how.3"><b>What similar or related data should the user be aware of?</b></a>
+<div style="margin-left: 1em;">
+Stevens, D.S.P., Wolken, G.J., Hubbard, T.D., and Hendricks, K.A., 2018, Landslides in Alaska: Information Circular IC 65, Alaska Division of Geological &amp; Geophysical Surveys, Fairbanks, Alaska, United States.<p>
+Online Links:
+<ul>
+<li><a href="https://doi.org/10.14509/29849">https://doi.org/10.14509/29849</a>
+</ul>
+<p>
+</div>
+<dl>
+<span class="element-name othercit">Other_Citation_Details:</span> <span class="element-value othercit">2 p</span><br/>
+</dl>
+<div style="margin-left: 1em;">
+Stevens, D.S.P., 2019, The Engineering Geology section at DGGS: Information Circular IC 76, Alaska Division of Geological &amp; Geophysical Surveys, Fairbanks, Alaska, United States.<p>
+Online Links:
+<ul>
+<li><a href="https://doi.org/10.14509/30122">https://doi.org/10.14509/30122</a>
+</ul>
+<p>
+</div>
+<dl>
+<span class="element-name othercit">Other_Citation_Details:</span> <span class="element-value othercit">2 p</span><br/>
+</dl>
+<div style="margin-left: 1em;">
+Timm, Kristin, and Wolken, G.J., 2017, Deglacierization and the development of glacier-related hazards: Information Circular IC 63, Alaska Division of Geological &amp; Geophysical Surveys, Fairbanks, Alaska, United States.<p>
+Online Links:
+<ul>
+<li><a href="https://doi.org/10.14509/29752">https://doi.org/10.14509/29752</a>
+</ul>
+<p>
+</div>
+<dl>
+<span class="element-name othercit">Other_Citation_Details:</span> <span class="element-value othercit">3 p</span><br/>
+</dl>
+<div style="margin-left: 1em;">
+Wolken, G.J., Hendricks, K.A., Daanen, R.P., Overbeck, J.R., Stevens, D.S.P., and Masterman, S.S., 2017, Alaska &amp; climate change: Information Circular IC 64, Alaska Division of Geological &amp; Geophysical Surveys, Fairbanks, Alaska, United States.<p>
+Online Links:
+<ul>
+<li><a href="https://doi.org/10.14509/29781">https://doi.org/10.14509/29781</a>
+</ul>
+<p>
+</div>
+<dl>
+<span class="element-name othercit">Other_Citation_Details:</span> <span class="element-value othercit">2 p</span><br/>
+</dl>
+</li>
+</ol>
+<hr/>
+<h3><a name="quality">How reliable are the data; what problems remain in the data set?</a></h3>
+<ol>
+<li style="margin-bottom: 1em;"><a name="quality.1"><b>How well have the observations been checked?</b></a><br/>
+Not applicable
+</li>
+<li style="margin-bottom: 1em;"><a name="quality.2"><b>How accurate are the geographic locations?</b></a><br/>
+Horizontal accuracy was not measured for this collection.
+</li>
+<li style="margin-bottom: 1em;"><a name="quality.3"><b>How accurate are the heights or depths?</b></a><br/>
+A mean offset of -19.7 cm was measured between 84 control points and the point cloud (appendix 1). This offset was reduced to -0.6 cm by performing a vertical transformation of the lidar point data. Twenty-two check points were used to determine the non-vegetated vertical accuracy (NVA) of the point cloud ground class, using a TIN-based approach. Project NVA was calculated to have a root mean square error (RMSE) of 7.7 cm. See accompanying report for more detail.
+</li>
+<li style="margin-bottom: 1em;"><a name="quality.4"><b>Where are the gaps in the data?  What is missing?</b></a><br/>
+This data release is complete, and there is no over collect except for aircraft turns that were eliminated from the dataset.
+</li>
+<li style="margin-bottom: 1em;"><a name="quality.5"><b>How consistent are the relationships among the observations, including topology?</b></a><br/>
+Relative accuracy for this dataset was evaluated as the interswath overlap consistency and was measured at 8.3 cm RMSE. The data quality is consistent throughout the survey.
+</li>
+</ol>
+<hr/>
+<h3><a name="getacopy">How can someone get a copy of the data set?</a></h3>
+<blockquote>
+<a name="getacopy.0"><b>Are there legal restrictions on access or use of the data?</b></a>
+<blockquote>
+<dl>
+<span class="element-name accconst">Access_Constraints:</span>
+<div class="child element-value accconst">
+This report, map, and/or dataset is available directly from the State of Alaska, Department of Natural Resources, Division of Geological &amp; Geophysical Surveys (see contact information below).
+</div>
+<span class="element-name useconst">Use_Constraints:</span>
+<div class="child element-value useconst">
+Any hard copies or published datasets utilizing these datasets shall clearly indicate their source. If the user has modified the data in any way, the user is obligated to describe the types of modifications the user has made. The user specifically agrees not to misrepresent these datasets, nor to imply that changes made by the user were approved by the State of Alaska, Department of Natural Resources, Division of Geological &amp; Geophysical Surveys. The State of Alaska makes no express or implied warranties (including warranties for merchantability and fitness) with respect to the character, functions, or capabilities of the electronic data or products or their appropriateness for any user's purposes. In no event will the State of Alaska be liable for any incidental, indirect, special, consequential, or other damages suffered by the user or any other person or entity whether from the use of the electronic services or products or any failure thereof or otherwise. In no event will the State of Alaska's liability to the Requestor or anyone else exceed the fee paid for the electronic service or product.
+</div>
+</dl>
+</blockquote>
+</blockquote>
+<ol>
+<li style="margin-bottom: 1em;"><a name="getacopy.1"><b>Who distributes the data set?</b></a> (Distributor 1 of 1)<br/>
+<div style="margin-left: 2em">
+<div title="Contact_Organization_Primary">Alaska Division of Geological &amp; Geophysical Surveys</div>
+<div title="Contact_Position">Metadata Manager</div>
+<div title="Address">3354 College Road</div>
+<span title="City">Fairbanks</span>, <span title="State_or_Province">AK</span> <span title="Postal_Code"99709-3707</span><br/>
+<div title="Country">USA</div>
+<p>
+<div title="Contact_Voice_Telephone">(907)451-5020 (voice)</div>
+<div title="Contact_Facsimile_Telephone">(907)451-5050 (FAX)</div>
+<div title="Contact_Electronic_Mail_Address">dggspubs@alaska.gov</div>
+<dl>
+<span class="element-name hours">Hours_of_Service:</span> <span class="element-value hours">8 am to 4:30 pm, Monday through Friday, except State holidays</span><br/>
+<span class="element-name cntinst">Contact_Instructions:</span>
+<div class="child element-value cntinst">
+Please view our website (<a href="https://www.dggs.alaska.gov">https://www.dggs.alaska.gov</a>) for the latest information on available data. Please contact us using the e-mail address provided above when possible.
+</div>
+</dl>
+</div>
+</li>
+<li style="margin-bottom: 1em;"><a name="getacopy.2"><b>What's the catalog number I need to order this data set?</b></a>
+<tt>RDF 2021-1</tt>
+</li>
+<li style="margin-bottom: 1em;"><a name="getacopy.3"><b>What legal disclaimers am I supposed to read?</b></a>
+<blockquote>
+The State of Alaska makes no expressed or implied warranties (including warranties for merchantability and fitness) with respect to the character, functions, or capabilities of the electronic data or products or their appropriateness for any user's purposes. In no event will the State of Alaska be liable for any incidental, indirect, special, consequential, or other damages suffered by the user or any other person or entity whether from the use of the electronic services or products or any failure thereof or otherwise. In no event will the State of Alaska's liability to the Requestor or anyone else exceed the fee paid for the electronic service or product.
+</blockquote>
+</li>
+<li style="margin-bottom: 1em;"><a name="getacopy.4"><b>How can I download or order the data?</b></a>
+<ul>
+<li><b>Availability in non-digital form:</b><br/>
+DGGS publications are available as free online downloads or you may purchase paper hard-copies or digital files on CD/DVD or other digital storage media by mail, phone, fax, or email from the DGGS Fairbanks office. To purchase this or other printed reports and maps, contact DGGS by phone (907-451-5020), e-mail (dggspubs@alaska.gov), or fax (907-451-5050). Payment accepted: Cash, check, money order, VISA, or MasterCard. Turnaround time is 1-2 weeks unless special arrangements are made and an express fee is paid. Shipping charge will be the actual cost of postage and will be added to the total amount due. Contact us for the exact shipping amount.
+<li><b>Cost to order the data:</b> Contact DGGS for current pricing<p></p>
+</ul>
+<ul>
+<li><b>Availability in digital form:</b>
+<table class="table table-condensed Digital_Form">
+<tr><th style="text-align: left; vertical-align: top;">Data&nbsp;format:</th>
+<td>
+classified point cloud data, digital surface model, digital terrain model, lidar intensity image, and hydro-enforced digital terrain model
+ in format report point-cloud GeoTIFF
+
+</td>
+</tr>
+<tr><th style="text-align: left; vertical-align: top;">Network&nbsp;links:</th>
+<td>
+<a href="https://doi.org/10.14509/30589">https://doi.org/10.14509/30589</a><br/>
+</td>
+</tr>
+</table>
+<li><b>Cost to order the data:</b> Free download<p></p>
+</ul>
+</li>
+</ol>
+<hr/>
+<h3><a name="metaref">Who wrote the metadata?</a></h3>
+<dl>
+<dt>Dates:
+<dd>Last modified: 27-Jan-2021<br/>
+</dd>
+<dt>Metadata author:
+<dd>
+<div style="margin-left: 2em">
+<div title="Contact_Organization_Primary">Alaska Division of Geological &amp; Geophysical Surveys</div>
+<div>Attn: <span title="Contact_Person">Simone Montayne</span></div>
+<div title="Contact_Position">Metadata Manager</div>
+<div title="Address">3354 College Road</div>
+<span title="City">Fairbanks</span>, <span title="State_or_Province">AK</span> <span title="Postal_Code"99709-3707</span><br/>
+<div title="Country">USA</div>
+<p>
+<div title="Contact_Voice_Telephone">(907)451-5020 (voice)</div>
+<div title="Contact_Facsimile_Telephone">(907)451-5050 (FAX)</div>
+<div title="Contact_Electronic_Mail_Address">dggspubs@alaska.gov</div>
+<dl>
+<span class="element-name hours">Hours_of_Service:</span> <span class="element-value hours">8 am to 4:30 pm, Monday through Friday, except State holidays</span><br/>
+</dl>
+</div>
+</dd>
+<dt>Metadata standard: <dd>FGDC Content Standard for Digital Geospatial Metadata (FGDC-STD-001-1998)<dt>Metadata extensions used:
+<dd>
+<ul>
+<li><a href="https://dggs.alaska.gov/metadata/dggs.ext">https://dggs.alaska.gov/metadata/dggs.ext</a></li>
+</ul>
+</dd>
+</dl>
+<hr/>
+<span class="mp-generated">Generated by <a href="https://geology.usgs.gov/tools/metadata/tools/doc/mp.html"><tt>mp</tt></a> version 2.9.50 on Tue Jan 26 16:55:04 2021<br/></span>
+
+</body>
+</html>
