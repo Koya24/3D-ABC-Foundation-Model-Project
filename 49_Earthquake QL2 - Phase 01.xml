@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Kodiak Mapping Inc.</origin>
+<pubdate>20181218</pubdate>
+<title>2018 Earthquake - QL2 Phase 01 Delivery</title>
+<geoform>Lidar Data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This dataset is comprised of lidar point cloud data covering the Municipality of Anchorage, as well as select sites in the Mat-Su Borough. The dataset consists of 620 lidar LAS files that have been auto-classified. It should be noted that portions of the project area were covered in snow, causing decreased point density and negatively impacting overall surface usability in some areas. A thorough review of supplemental information is recommended prior to use of this lidar data and any derivative surfaces</abstract>
+<purpose>The purpose of this data was to provide generalized surface information suitable for initial response and assessment efforts.</purpose>
+<lidar>
+<ldrinfo>
+<ldrspec>None Used</ldrspec>
+<ldrsens>RIEGL LMS-Q780</ldrsens>
+<ldrmaxnr>15</ldrmaxnr>
+<ldrnps>0.7</ldrnps>
+<ldrdens>2</ldrdens>
+<ldrfltht>1500</ldrfltht>
+<ldrfltsp>120</ldrfltsp>
+<ldrscana>60</ldrscana>
+<ldrscanr>Variable</ldrscanr>
+<ldrpulsr>400</ldrpulsr>
+<ldrpulsd>3</ldrpulsd>
+<ldrpulsw>0.6</ldrpulsw>
+<ldrwavel>1064</ldrwavel>
+<ldrmpia>1</ldrmpia >
+<ldrbmdiv>0.25</ldrbmdiv>
+<ldrswatw>1500</ldrswatw>
+<ldrswato>50</ldrswato>
+<ldrcrs>NAD83 UTM6 Meters</ldrcrs>
+<ldrgeoid>National Geodetic Survey (NGS) GEOID12B</ldrgeoid>
+</ldrinfo>
+<ldraccur>
+<ldrchacc>NA</ldrchacc>
+<rawnva>NA</rawnva>
+<rawnvan>NA</rawnvan>
+<clsnva>NA</clsnva>
+<clsnvan>NA</clsnvan>
+</ldraccur>
+<lasinfo>
+<lasver>1.4</lasver>
+<lasprf>1</lasprf>
+<laswheld>NA</laswheld>
+<lasolap>NA</lasolap>
+<lasintr>16</lasintr>
+<lasclass>
+<clascode>1</clascode>
+<clasitem>Unclassified</clasitem>
+</lasclass>
+<lasclass>
+<clascode>2</clascode>
+<clasitem>Autoclassified Bare-earth</clasitem>
+</lasclass>
+<lasclass>
+<clascode>7</clascode>
+<clasitem>Noise</clasitem>
+</lasclass>
+</lasinfo>
+</lidar>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>20181206</begdate>
+<enddate>20181209</enddate>
+</rngdates>
+</timeinfo>
+<current>ground condition</current>
+</timeperd>
+<status>
+<progress>Partial: Phase 1 of 2</progress>
+<update>none planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-150.13684133</westbc>
+<eastbc>-148.95543158</eastbc>
+<northbc>61.69647175</northbc>
+<southbc>60.90426721</southbc>
+</bounding>
+<lboundng>
+<leftbc>334000.000</leftbc>
+<rightbc>394000.000</rightbc>
+<topbc>6842000.000</topbc>
+<bottombc>6756000.000</bottombc>
+</lboundng>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Elevation data</themekey>
+<themekey>Lidar</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Alaska</placekey>
+<placekey>Municipality of Anchorage</placekey>
+<placekey>Matanuska-Susitan Borough</placekey>
+</place>
+</keywords>
+<accconst>No restrictions apply to these data.</accconst>
+<useconst>None, however it should be noted that this data has been neither (a.) manually edited or verified for surface representational accuray nor (b.) compared statistically to ground-collected QAQC check-shots. Therefore no verified accuracy can be documented at this time, nor should this data be utilized for design or other engineering purposes that typically require conformance to a published accuracy specification. Later phases of this project will be thorougly cleaned, revieiwed, and compared to ground-collected QAQC data to verify vertical accuracy. It should be noted that portions of the project area were covered in snow, causing decreased point density and negatively impacting overall surface usability in some areas. A thorough review of supplemental information is recommended prior to use of this lidar data and any derivative surfaces.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Kodiak Mapping Inc.</cntorg>
+<cntper>Kevin Quinn, CP</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>536 East Fireweed Avenue</address>
+<city>Palmer</city>
+<state>AK</state>
+<postal>99645</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>907-746-1405</cntvoice>
+<cntfax>907-146-1422</cntfax>
+<cntemail>kodmaps@mtaonline.net</cntemail>
+<hours>Monday through Friday 9:00 AM to 5:00 PM (Alaska Time)</hours>
+</cntinfo>
+</ptcontac>
+<native>RIEGL RiPRocess 1.8.4; TerraSolid v018; Windows 7 Professional Operating System \\lidar\Deliverables\Autoclassified LAS Data\*.las</native>
+</idinfo>
+<dataqual>
+<logic>A modified version of the project AOI is covered in its entirety by this dataset. Due to altitude restrictions caused by weather conditions, portions of the original AOI were flown at higher speeds and lower altitudes than originally planned.</logic>
+<complete>The modified AOI is covered in its entirety, with exception of those small regional gaps in the data caused by snow and poor reflectivity on recently treated roads and runways. These considerations, as well as the flight conditions mentioned above, may lead to less than desired point densities in portions of the project. </complete>
+<posacc>
+<vertacc>
+<vertaccr>Vertical Accuracy of this data not verified at this time.</vertaccr>
+<qvertpa>
+<vertaccv>NA</vertaccv>
+<vertacce>No accuracy standard / criterion utilized for this preliminary dataset.</vertacce>
+</qvertpa>
+</vertacc>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Kodiak Mapping Inc.</origin>
+<pubdate>20181210</pubdate>
+<title>Aerial Lidar Acquisition - 2018 Earthquake</title>
+<geoform>Raw GPS/IMU and Lidar Measurements</geoform>
+<pubinfo>
+<pubplace>Palmer, AK</pubplace>
+<publish>Kodiak Mapping Inc.</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<typesrc>Physical Hard Drive</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>20181209</begdate>
+<enddate>20181214</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>EQ18_RAW</srccitea>
+<srccontr>This data source was utilized in the generation of intermediate point clouds.</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>Kodiak Mapping Inc.</origin>
+<pubdate>20181216</pubdate>
+<title>Autoclassified Lidar Data - 2018 Earthquake</title>
+<geoform>Lidar data</geoform>
+<pubinfo>
+<pubplace>Palmer, AK</pubplace>
+<publish>Kodiak Mapping Inc.</publish>
+</pubinfo>
+</citeinfo>
+</srccite>
+<typesrc>Internal</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>20181214</begdate>
+<enddate>20181216</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>EQ18_LIDAR</srccitea>
+<srccontr>This data source was utilized in the derivation of subsequent products.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Raw GPS/IMU data processed in tightly-coupled fashion to produce highly accurate sensor-trajectories. CORS in Anchorage (e.g. TSEA) were utilized in network processing of locally established base stations prior to trajectory processing. Published NGS NAD83 (2011) positions were held. Trajectory data was merged with lidar range measurements to produce a georeferenced point cloud. Established sensor orientation corrections applied to increase relative accuracy of dataset.</procdesc>
+<srcused>EQ18_RAW</srcused>
+<procdate>20181210</procdate>
+<srcprod>EQ18_LIDAR</srcprod>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Kodiak Mapping Inc.</cntorg>
+<cntper>Kevin Quinn, CP</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>536 East Fireweed Avenue</address>
+<city>Palmer</city>
+<state>AK</state>
+<postal>99645</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>907-746-1405</cntvoice>
+<cntfax>907-146-1422</cntfax>
+<cntemail>kodmaps@mtaonline.net</cntemail>
+<hours>Monday through Friday 9:00 AM to 5:00 PM (Alaska Time)</hours>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Automated bare-earth classification based on standard geometric algorithms performed on georeferecnced point cloud data. Preliminary products tiled and re-formatted.</procdesc>
+<srcused>EQ18_LIDAR</srcused>
+<procdate>20181216</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Kodiak Mapping Inc.</cntorg>
+<cntper>Kevin Quinn, CP</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>536 East Fireweed Avenue</address>
+<city>Palmer</city>
+<state>AK</state>
+<postal>99645</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>907-746-1405</cntvoice>
+<cntfax>907-146-1422</cntfax>
+<cntemail>kodmaps@mtaonline.net</cntemail>
+<hours>Monday through Friday 9:00 AM to 5:00 PM (Alaska Time)</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Point</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>Universal Transverse Mercator</gridsysn>
+<utm>
+<utmzone>6</utmzone>
+<transmer>
+<sfctrmer>0.9996</sfctrmer>
+<longcm>-147.000000</longcm>
+<latprjo>0.0</latprjo>
+<feast>500000</feast>
+<fnorth>0.0</fnorth>
+</transmer>
+</utm>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.01</absres>
+<ordres>0.01</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983 (2011)</horizdn>
+<ellips>EXAMPLE: Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257222101</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altdatum>North American Vertical Datum of 1988 (GEOID12B)</altdatum>
+<altres>0.01</altres>
+<altunits>meters</altunits>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<metainfo>
+<metd>20181218</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Kodiak Mapping Inc.</cntorg>
+<cntper>Kevin Quinn, CP</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>536 East Fireweed Avenue</address>
+<city>Palmer</city>
+<state>AK</state>
+<postal>99645</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>907-746-1405</cntvoice>
+<cntfax>907-146-1422</cntfax>
+<cntemail>kodmaps@mtaonline.net</cntemail>
+<hours>Monday through Friday 9:00 AM to 5:00 PM (Alaska Time)</hours>
+</cntinfo>
+</metc>
+<metstdn>Federal Geographic Data Committee (FGDC) Content Standard Appendixes 97 for Digital Geospatial Metadata (CSDGM)</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+</metainfo>
+</metadata>
